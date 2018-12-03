@@ -1,0 +1,1 @@
+puts File.open('1-input.txt').readlines().map {|s| s.delete("\n")}.reduce(0) {|sum, n| sum + n.to_i}
