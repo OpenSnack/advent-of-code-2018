@@ -1,4 +1,3 @@
-# implying this isn't obviously a binary problem
 # we are making the assumption that "....." => "." for everyone since otherwise you may never terminate
 
 def get_key(pots, idx)
